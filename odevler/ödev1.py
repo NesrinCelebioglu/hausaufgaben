@@ -1,15 +1,14 @@
 
 
-# Virtual Environment Oluşturma
+# Virtuelle Umgebung Erstellen
 
-
-# Görev 1: Kendi isminizde bir virtual environment oluşturunuz, oluşturma esnasında python 3 kurulumu yapınız.
+# Aufgabe 1: Erstellen Sie eine virtuelle Umgebung mit Ihrem Namen und installieren Sie Python 3.
 
  # conda create -n ma python=3
  # conda env list
 
 
-# Görev 2: Oluşturduğunuz environment'ı aktif ediniz.
+# Aufgabe 2: Aktivieren Sie die erstellte Umgebung.
 
 
  # conda activate ma
