@@ -14,50 +14,50 @@
  # conda activate ma
 
 
-# Görev 3: Yüklü paketleri listeleyiniz.
+# Aufgabe 3: Listen Sie die installierten Pakete auf.
 
 
  # conda list
 
 
-# Görev 4: Environment içerisine Numpy'ın güncel versiyonunu ve Pandas'ın 1.2.1 versiyonunu aynı anda indiriniz.
+# Aufgabe 4: Installieren Sie gleichzeitig die aktuelle Version von Numpy und die Version 1.2.1 von Pandas.
 
 
  # conda install numpy pandas=1.2.1
 
 
 
-# Görev 5: İndirilen Numpy'ın versiyonu nedir?
+# Aufgabe 5: Welche Version von Numpy wurde installiert?
 
 
 # conda list
 
 
-# Görev 6: Pandas'ı upgrade ediniz. Yeni versiyon nedir?
+# Aufgabe 6: Aktualisieren Sie Pandas. Welche neue Version wird installiert?
 
  # conda upgrade pandas
  # conda list
 
 
 
-# Görev 7: Numpy'ı environment'tan siliniz.
+# Aufgabe 7: Entfernen Sie Numpy aus der Umgebung.
 
  # conda remove numpy
 
 
 
-# Görev 8: Seaborn kütüphanesini ve matplotlib kütüphanesini aynı anda güncel versiyonları ile indiriniz.
+# Aufgabe 8: Installieren Sie Seaborn und Matplotlib gleichzeitig in den neuesten Versionen.
 
 
  # conda install seaborn matplotlib
 
 
-# Görev 9: Virtual environment içindeki kütüphaneleri versiyon bilgisi ile beraber export ediniz ve yaml dosyasını inceleyiniz.
+# Aufgabe 9: Exportieren Sie die Pakete Ihrer virtuellen Umgebung mit Versionsinformationen in eine yaml-Datei und prüfen Sie diese.
 
  # conda env export > enviroment.yaml
 
 
-# Görev 10: Oluşturduğunuz environment'i siliniz.
+# Aufgabe 10: Löschen Sie die erstellte virtuelle Umgebung.
 
 
  # conda deactivate
